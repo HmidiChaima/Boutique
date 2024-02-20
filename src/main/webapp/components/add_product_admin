@@ -1,0 +1,32 @@
+<div class="col-md-9" style="display:flex; flex-direction : column; justify-content: center; align-items: center;">
+				     <h4 style="position:absolute; top: 25px;">%s</h4>
+				     <form action="GestionProduit" method="POST" enctype="multipart/form-data">
+				     	<div class="mb-3">
+						  <label for="id" class="form-label">ID de Produit</label>
+						  <input type="text" class="form-control" id="id" readonly name="id_prod" value="%s"/>
+						</div>
+				     	<div class="mb-3">
+						  <input type="text" class="form-control" id="nom_prod" 
+						  	name="name_prod" placeholder="Nom du Produit" value="%s"/>
+						</div>
+						<div class="mb-3">
+						  <input type="text" class="form-control" id="price_prod" name="price_prod" placeholder="Prix" value="%s"/>
+						</div>
+						<div class="mb-3">
+						  <input type="text" class="form-control" id="qte_prod" name="qte_prod" placeholder="Quantité" value="%s"/>
+						</div>
+						<div class="form-group">
+						    <input type="file" class="form-control-file" id="image_produit" name="img_prod" placeholder="Image du produit">
+						</div>
+						<div class="mb-3">
+						  <textarea class="form-control" id="disc_prod" rows="3" name="disc_prod" placeholder="Description">%s</textarea>
+						</div>
+						<select class="form-control mb-3" aria-label=".form-select-sm example" name="idc">
+						  <option value="0">Selectionner la catégorie</option>
+						  %s
+						</select>
+						<div class="mb-3">
+							<button type="submit" name="dipatchType" value="%s" class="btn btn-outline-info">Valider</button>
+						</div>
+				     </form>
+				</div>

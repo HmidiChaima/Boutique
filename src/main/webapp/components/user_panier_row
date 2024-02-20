@@ -1,0 +1,10 @@
+<tr>
+	<td>%s</td>
+    <td>%s</td>
+	<td>%s DT</td>
+	<td>
+		<form action="DeletePanier" method="POST">
+			<button type="submit" name="id" class="btn btn-outline-danger" value="%d" id="btncalcdelete">Supprimer</button>
+		</form>
+	</td>
+</tr>

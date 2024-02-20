@@ -1,0 +1,15 @@
+<tr>
+	<td>
+		<div class="form-check form-check-inline">
+			  <label class="form-check-label">%d</label>
+		</div>
+	</td>
+    <td>%s</td>
+	<td>%s</td>
+	<td>
+		<form action="DeleteCategory" method="POST">
+			<a href="admin.jsp?menu=1&type=modify&id=%d"><button type="button" class="btn btn-outline-info">Modifier</button></a>
+			<button type="submit" name="id" class="btn btn-outline-danger" value="%d">Supprimer</button>
+		</form>
+	</td>
+</tr>

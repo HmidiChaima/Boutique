@@ -1,0 +1,7 @@
+<div class="col-md-10 welcome" style="display:flex; flex-direction : column; justify-content: center; align-items: center;">
+	<img alt="" src="./assets/img/admin.png" width="200px" height="200px">
+    <h4 class="text-center">Bienvenue</h4>
+    <p class="text-center">Dans l'interface admin de la boutique.</p>
+    <p class="text-center">Cette page vous permet de gérer les catégories et les produits de la boutique.</p>
+     
+</div>

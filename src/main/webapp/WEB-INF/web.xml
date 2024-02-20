@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>boutique</display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  	<servlet-name>Authenticate</servlet-name>
+  	<servlet-class>controller.Authenticate</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteCategory</servlet-name>
+  	<servlet-class>controller.DeleteCategory</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GestionCategory</servlet-name>
+  	<servlet-class>controller.GestionCategory</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CalculeTotal</servlet-name>
+  	<servlet-class>controller.CalculeTotal</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GestionProduit</servlet-name>
+  	<servlet-class>controller.GestionProduit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Authenticate</servlet-name>
+  	<url-pattern>/authenticate/logout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<servlet-name>AjouterPanier</servlet-name>
+  	<servlet-class>controller.AjouterPanier</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AjouterPanier</servlet-name>
+  	<url-pattern>/cart-add</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,17 @@
+ <div class="col-md-9" style="display:flex; flex-direction : column; justify-content: center; align-items: center;">
+				     <h4 style="position:absolute; top: 25px;">Gestion des catégories</h4>
+				     <a href="admin.jsp?menu=1&type=add"><button type="button" class="btn btn-outline-success mb-4">Ajouter une Catégorie</button></a>
+				     <table class="table table-dark table-striped mr-4">
+				     	<thead>
+						    <tr>
+						      <th scope="col">#id</th>
+						      <th scope="col">Categorie</th>
+						      <th scope="col">Sous catégorie de</th>
+						      <th scope="col">Action</th>
+						    </tr>
+						  </thead>
+						 <tbody>
+						    %s
+						</tbody>
+					</table>
+				</div>

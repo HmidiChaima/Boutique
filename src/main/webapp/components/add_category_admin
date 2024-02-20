@@ -1,0 +1,20 @@
+<div class="col-md-9" style="display:flex; flex-direction : column; justify-content: center; align-items: center;">
+				     <h4 style="position:absolute; top: 25px;">%s</h4>
+				     <form action="GestionCategorie" method="POST">
+				     	<div class="mb-3">
+						  <label for="nom_cat" class="form-label">ID de categorie</label>
+						  <input type="text" class="form-control" id="nom_cat" readonly name="id_cat" value="%s"/>
+						</div>
+				     	<div class="mb-3">
+						  <label for="nom_cat" class="form-label">Nom du catégorie</label>
+						  <input type="text" class="form-control" id="nom_cat" name="cat_name"/>
+						</div>
+						<select class="form-control mb-3" aria-label=".form-select-sm example" name="idf">
+						  <option selected value="0">Selectionner la catégorie parente</option>
+						  %s
+						</select>
+						<div class="mb-3">
+							<button type="submit" name="dipatchType" value="%s" class="btn btn-outline-info">Valider</button>
+						</div>
+				     </form>
+				</div>

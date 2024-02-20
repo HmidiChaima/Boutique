@@ -1,0 +1,16 @@
+<div class="card col-3 ml-5 mb-5" style="width: 18rem;">
+	<img class=card-img-top" src="%s" alt="Card image cap">
+	<div class="card-body">
+	<h5 class="card-title">%s</h5>
+	<p class="card-text">%s</p>
+	<ul class="list-group list-group-flush">
+		<li class="list-group-item">%.2f DT</li>
+	</ul>
+  	</div>
+  	<div class="card-body">
+  		<form action="AjouterPanier" method="GET">
+			<button class="btn btn-secondary" type="submit" name="id" value="%d">Ajouter au panier</button>
+  			<input type="number" name="qte" style="width : 45px; height : 35px; margin-buttom : 44px;" value="1" min="1">
+		</form>
+	</div>
+</div>
